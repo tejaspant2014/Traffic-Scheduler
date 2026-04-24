@@ -1,12 +1,17 @@
 {
-    "simulation_params": {
-      "total_ticks": 3600,
-      "yellow_light_penalty": 5,
-      "aging_coefficient": 1.5
+    "simulation": {
+      "total_ticks": 500,
+      "min_green_time": 5,
+      "yellow_penalty": 2
     },
-    "scenarios": {
-      "rush_hour": { "arrival_rate": 0.8 },
-      "midnight": { "arrival_rate": 0.05 }
+    "scheduler": {
+      "aging_coefficient": 0.8,
+      "busy_rate_threshold": 0.4,
+      "time_quantum": 15
     },
-    "lanes": ["North", "South", "East", "West"]
+    "traffic": {
+      "low_arrival_rate": 0.08,
+      "high_arrival_rate": 0.25,
+      "rush_hour_start": 100
+    }
   }
