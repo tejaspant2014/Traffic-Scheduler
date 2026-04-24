@@ -66,6 +66,8 @@ This generates:
 
 #### Wait time vs arrival rate graph
 #### Adaptive vs Round Robin comparison
+#### AS SHOWN:
+<img width="1600" height="989" alt="image" src="https://github.com/user-attachments/assets/d349ab59-b93f-443b-a38c-416cdefde966" />
 
 ### 🚀 How to Run
 1. Run simulation
