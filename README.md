@@ -66,17 +66,6 @@ This generates:
 
 #### Wait time vs arrival rate graph
 #### Adaptive vs Round Robin comparison
-### 🧱 Project Structure
-.
-├── core/
-│   ├── engine.py        # Lane model and traffic generation
-│   ├── schedulers.py   # Adaptive scheduling logic
-│
-├── metrics/
-│   └── visualizer.py   # Graph generation
-│
-├── main.py             # Simulation driver
-├── config.json         # Tunable parameters
 
 ### 🚀 How to Run
 1. Run simulation
