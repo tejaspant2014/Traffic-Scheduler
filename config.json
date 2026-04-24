@@ -1,0 +1,12 @@
+{
+    "simulation_params": {
+      "total_ticks": 3600,
+      "yellow_light_penalty": 5,
+      "aging_coefficient": 1.5
+    },
+    "scenarios": {
+      "rush_hour": { "arrival_rate": 0.8 },
+      "midnight": { "arrival_rate": 0.05 }
+    },
+    "lanes": ["North", "South", "East", "West"]
+  }
